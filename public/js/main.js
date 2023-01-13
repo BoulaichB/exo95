@@ -17,3 +17,5 @@ listItems.forEach(element => {
     console.log(element.textContent[element.textContent.length-1].toUpperCase());
 });
 // ### 6. Récupère le p dont la class est "grandParagraphe" de la div id "content", tu dois ici utiliser un getElementById et un getElementsByClassName
+let content = document.getElementById('content');
+let gp = document.getElementsByClassName('grandParagraphe')[0];
